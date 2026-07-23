@@ -1,0 +1,6 @@
+results/clips/
+results/.virtual_documents/
+results/*.pth
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
