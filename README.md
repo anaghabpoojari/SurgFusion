@@ -24,13 +24,9 @@ Surgical video understanding is typically split into three sub-tasks. This proje
 | [m2cai16-tool-locations](http://camma.u-strasbg.fr/m2cai2016/) | Request access via CAMMA | Object detection |
 | AutoLaparo, CholecT50, EndoVis2019 (via SurgBench-E) | Request access — see [SurgBench paper](https://arxiv.org/abs/2506.07603) | Phase recognition |
 
-None of these datasets are redistributed in this repository. You must request access from the original sources and place the raw data under a local `data/` directory (gitignored) before running the notebooks.
-
 ---
 
 ## Citation
-
-If you use this work, please also cite the datasets and prior work it builds on:
 
 ```bibtex
 @article{wei2025surgbench,
@@ -52,7 +48,3 @@ If you use this work, please also cite the datasets and prior work it builds on:
   author={Tran, Du and Wang, Heng and Torresani, Lorenzo and Ray, Jamie and LeCun, Yann and Paluri, Manohar},
   booktitle={CVPR}, pages={6450--6459}, year={2018}
 }
-```
-## License
-
-*[Add a license, e.g. MIT, or "For academic use only" if datasets restrict redistribution]*
